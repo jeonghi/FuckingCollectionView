@@ -12,7 +12,7 @@ class ViewController: UIViewController {
   
   private let collectionView = UICollectionView(
     frame: .zero,
-    collectionViewLayout: UICollectionViewFlowLayout().then {
+    collectionViewLayout: CustomCollectionViewFlowLayout().then {
       $0.scrollDirection = .vertical
     }
   )
